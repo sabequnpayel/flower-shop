@@ -55,7 +55,7 @@ h4{
     font-size: 40px;
     color: rgba(39, 39, 39, 1);
     margin-bottom: 24px;
-    margin-top: 178px;
+    margin-top: 30px;
 }
  .background-color-one{
     background-color: rgba(229, 84, 115, 0.1); 
@@ -146,8 +146,6 @@ span{
 /*Fifth section*/
 .showcase-container{
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 40px;
     .text-1{
         margin-bottom: 48px;
     }
@@ -189,16 +187,31 @@ span{
  @media screen and (max-width: 576px) {
     .cover,
     .top-container,
-    .benefits,
-    .showcase
+    .benefits
     {
         margin: auto auto;
         flex-direction: column;
         height: calc(100% - 2px);
         width: calc(100% - 2px);
     }
+    .contact{
+        flex-direction: column;
+
+    }
+    .contact-container{
+        background-image: url('./Assets/rec-9.png');
+        background-repeat: no-repeat;
+        margin: 30px 0px 50px 0px;
+        padding: 50px 0px 60px 0px;
+    }
+    .input{
+        width: calc(100% - 40px);
+    }
     .showcase{
-       gap: 20px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 10px;
     }
     .deals-container{
         padding: 0px 0px 0px 0px;
