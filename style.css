@@ -125,6 +125,9 @@ h4{
     align-content: center;
     padding: 95px 175px 100px 175px;
 }
+.images{
+    text-align: center;
+}
 
 /*Fourth section*/
 .deals-container{
@@ -204,7 +207,7 @@ span{
 }
 
 
-
+/*Media query*/
  @media screen and (max-width: 576px) {
     .cover,
     .top-container,
