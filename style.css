@@ -215,6 +215,19 @@ span{
         height: calc(100% - 2px);
         width: calc(100% - 2px);
     }
+    .last-last{
+padding-top: 30px;
+padding-bottom: 50px;
+    }
+    .last-heading{
+        font-size: 35px;
+    }
+    .text-2{
+        font-size: 15px;
+    }
+    .text-3{
+        font-size: 12px;
+    }
     .contact{
         flex-direction: column;
 
