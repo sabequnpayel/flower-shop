@@ -22,8 +22,7 @@
 }
 
 /*First section*/
-.cover-container,
-.deals-container{
+.cover-container{
     background-color: rgba(229, 84, 115, 0.1);
 }
 
@@ -128,6 +127,9 @@ h4{
 }
 
 /*Fourth section*/
+.deals-container{
+    background-color: rgba(229, 84, 115, 0.05);
+}
 .deal{
     display: flex;
     justify-content: space-around;
@@ -139,6 +141,23 @@ h4{
 }
 span{
     color: rgba(229, 84, 115, 1) ;
+}
+
+/*Fifth section*/
+.showcase-container{
+    text-align: center;
+    h4{
+        margin-bottom: 24px;
+    }
+    .text-1{
+        margin-bottom: 48px;
+    }
+}
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
