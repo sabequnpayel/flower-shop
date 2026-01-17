@@ -22,7 +22,8 @@
 }
 
 /*First section*/
-.cover-container{
+.cover-container,
+.deals-container{
     background-color: rgba(229, 84, 115, 0.1);
 }
 
@@ -54,7 +55,7 @@ h3{
 h4{
     font-size: 40px;
     color: rgba(39, 39, 39, 1);
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     margin-top: 178px;
 }
  .background-color-one{
@@ -117,13 +118,29 @@ h4{
     margin-left: 210px;
     margin-right: 210px;
     align-items: center;
+    margin-bottom: 130px;
 }
 .benefits{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    padding: 95px 175px 80px 175px;
+    padding: 95px 175px 100px 175px;
 }
+
+/*Fourth section*/
+.deal{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px 100px 200px;
+}
+.deals-description{
+    text-align: center;
+    gap: 10px;
+}
+span{
+    color: rgba(229, 84, 115, 1) ;
+}
+
 
 
  @media screen and (max-width: 576px) {
