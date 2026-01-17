@@ -165,12 +165,16 @@ span{
  @media screen and (max-width: 576px) {
     .cover,
     .top-container,
-    .benefits
+    .benefits,
+    .showcase
     {
         margin: auto auto;
         flex-direction: column;
         height: calc(100% - 2px);
         width: calc(100% - 2px);
+    }
+    .showcase{
+       gap: 20px;
     }
     .deals-container{
         padding: 0px 0px 0px 0px;
