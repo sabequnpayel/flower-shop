@@ -49,6 +49,7 @@ h3{
 .top-tier{
     text-align: center;
     padding-bottom: auto;
+    margin-bottom: 130px;
 }
 h4{
     font-size: 40px;
@@ -84,6 +85,8 @@ h4{
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
  }
  .image-one{
     width: 310px;
@@ -108,15 +111,42 @@ h4{
     padding-left: 75px;
  }
 
-
+/* Third section*/
+.benefits-container{
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-left: 210px;
+    margin-right: 210px;
+    align-items: center;
+}
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 95px 175px 80px 175px;
+}
 
 
  @media screen and (max-width: 576px) {
     .cover,
-    .top-container{
+    .top-container,
+    .benefits
+    {
+        margin: auto auto;
         flex-direction: column;
         height: calc(100% - 2px);
         width: calc(100% - 2px);
+    }
+    .benefits-container{
+     margin-left: 0px;
+     margin-right: 0px;
+     align-items: center;
+    }
+    .benefits{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
     }
     .cover-container{
         width: 100%;
@@ -165,5 +195,6 @@ h4{
     }
     .box-1{
         margin: 0px;
+        margin-bottom: 10px;
     }
 }
